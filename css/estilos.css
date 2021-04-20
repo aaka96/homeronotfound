@@ -1,0 +1,84 @@
+
+	body {
+		background-color: #c9b571;
+		margin: 0 auto
+	}
+
+	.rosquilla {
+		margin-top: 10%;
+		display: inline-block;
+		white-space: nowrap;
+		width: 100%;
+	}
+
+	span {
+		font-size: 200px
+	}
+
+	a,
+	p {
+		font-size: 20px
+	}
+
+	@-webkit-keyframes rotating {
+		from {
+			transform: rotate(0deg);
+		}
+
+		to {
+			transform: rotate(360deg);
+		}
+
+	}
+
+	.rueda {
+        width:140px;
+		animation: rotating 2s linear infinite;
+	}
+
+	.mueve {
+        height:375px; 
+        width:300px;
+        position: relative;
+		animation: linear infinite;
+		animation-name: run;
+		animation-duration: 5s;
+	}
+
+	@-webkit-keyframes run {
+		0% {
+			left: -10%;
+		}
+
+		50% {
+			left: 90%;
+		}
+
+		100% {
+			left: -10%;
+		}
+	}
+
+	.bloque {
+		width: 180px;
+		padding: 30px 5px 5px;
+		margin: 5px 2px;
+
+		display: inline-block;
+		white-space: normal;
+		vertical-align: middle;
+		text-align: center;
+		overflow: hidden;
+
+	}
+
+	.not-found {
+		width: 50%;
+	}
+
+	.homer {
+		width: 50%;
+		height: 200px;
+		overflow: hidden;
+		height: auto;
+	}
