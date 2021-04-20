@@ -33,14 +33,14 @@
 
 	.rueda {
         width:140px;
-		animation: rotating 2s linear infinite;
+		animation: rotating 2s  infinite;
 	}
 
 	.mueve {
         height:375px; 
         width:300px;
         position: relative;
-		animation: linear infinite;
+		animation: infinite;
 		animation-name: run;
 		animation-duration: 5s;
 	}
